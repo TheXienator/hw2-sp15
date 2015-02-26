@@ -3,7 +3,7 @@ class Person
 	def initialize name, age
 		@name = name
 		@age = age
-		@nickname = name
+		@nickname = name[0, 4]
 	end
 
 	def introduce
